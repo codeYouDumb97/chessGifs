@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+chess_gifs = "H4pp964DbZi6Xio71QWXPtCiFE7GQuwCXrkfZfkJA6gk"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/rust_development/.config/solana/id.json"
+
+[scripts]
+test = "node tests/chessGifs.js"
